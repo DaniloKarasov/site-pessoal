@@ -106,3 +106,9 @@ article > p {
     padding-right: 10%;
     font-size: 20px;
 }
+
+.linktexto {
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+}
