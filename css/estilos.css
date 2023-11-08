@@ -9,11 +9,66 @@ body {
     background-color: rgb(222, 250, 241);
 }
 
+ul.menu {
+    list-style: none;
+    margin-top: 5px;
+    padding: 0px;
+    
+}
+
+li {
+    display: inline-block; 
+}
+
+.botao:hover, .botao:focus {
+   
+   
+    text-decoration: none;
+    font-size: 24px;
+    padding: 5px;
+    margin: 0px;
+    color: black;
+    background-color: rgb(219, 230, 70);
+    border-bottom-style: solid;
+    border-right-style: solid;
+    border-color: gray ;
+    border-radius: 10px;
+    border-width: 2px;
+    
+    
+    
+}
+
+.botao {
+    text-decoration: none;
+    font-size: 24px;
+    padding: 5px;
+    margin: 0px;
+    color: black;
+    background-color: rgb(229, 231, 198);
+    border-bottom-style: solid;
+    border-right-style: solid;
+    border-color: gray ;
+    border-radius: 10px;
+    border-width: 2px;
+}
+
+h1 {
+    font-size: 24px;
+    text-align: center;
+}
+
+.titulo {
+    text-align: center;
+    font-size: 24px;
+}
+
 .quadro {
     background-color: white;
     margin-left: 10%;
     margin-right: 10%;
     border-style: solid;
+    border-width: 1px;
     
 }
 
@@ -22,6 +77,7 @@ body {
     width: 30%;
     border-style: solid;
     border-radius: 50%;
+    border-width: 1px;
     margin-left: 10%;
     margin-right: 10%;
 }
@@ -31,29 +87,6 @@ body {
     width: 40%;
     margin-left: 10%;
     font-size: 20px;
-}
-
-.titulo {
-    text-align: center;
-}
-
-ul.menu {
-    list-style: none;
-    margin: 0px;
-    padding: 0px;
-}
-
-ul.menu > li {
-    display: inline-block;
-    font-size: 24px;
-    padding: 5px;
-    margin: 0px;
-    background-color: rgb(229, 231, 198);
-    border-bottom-style: solid;
-    border-right-style: solid;
-    border-color: gray ;
-    border-radius: 10px;
-    color: black;
 }
 
 .clearfix {
