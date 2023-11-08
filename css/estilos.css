@@ -18,6 +18,7 @@ ul.menu {
 
 li {
     display: inline-block; 
+    margin-bottom: 3%;
 }
 
 .botao:hover, .botao:focus {
@@ -56,11 +57,13 @@ li {
 h1 {
     font-size: 24px;
     text-align: center;
+    margin: 10px;
 }
 
 .titulo {
     text-align: center;
     font-size: 24px;
+    margin: 2%;
 }
 
 .quadro {
@@ -70,6 +73,11 @@ h1 {
     border-style: solid;
     border-width: 1px;
     
+}
+
+p {
+    text-indent: 5%;
+    margin: 1%;
 }
 
 .configuracaoImagemRedonda {
@@ -96,4 +104,5 @@ h1 {
 article > p {
     padding-left: 10%;
     padding-right: 10%;
+    font-size: 20px;
 }
