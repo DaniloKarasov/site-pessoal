@@ -81,13 +81,13 @@ p {
 }
 
 .configuracaoImagemRedonda {
-    float: left;
+    float: center;
     width: 30%;
     border-style: solid;
     border-radius: 50%;
     border-width: 1px;
-    margin-left: 10%;
-    margin-right: 10%;
+    margin-left: 35%;
+    margin-right: 35%;
 }
 
 .lado {
